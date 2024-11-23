@@ -1,1 +1,1 @@
-# Student_material
+This is a recreation of the year 2024/2025 academic timetable.
