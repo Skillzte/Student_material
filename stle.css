@@ -1,0 +1,69 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timetable-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+thead th {
+    background-color: #0074D9;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.break {
+    background-color: #FFDC00;
+    font-weight: bold;
+}
+
+td[colspan], td[rowspan] {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    th, td {
+        font-size: 12px;
+    }
+
+    table {
+        font-size: 10px;
+    }
+}
